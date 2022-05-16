@@ -35,16 +35,28 @@ Perform the following tasks to prepare your environment for the labs.
 2. In Windows PowerShell, run the following commands to download the required course files. This may take a few minutes.
 
     ```
-    mkdir c:\dp-203
+    mkdir :\dp-203
 
-    cd c:\dp-203
+    cd d:\dp-203
 
-    git clone https://github.com/microsoftlearning/dp-203-data-engineer.git data-engineering-ilt-deployment
+    git clone https://github.com/microshaoft/dp-203-data-engineer.git data-engineering-ilt-deployment
     ```
+
+```
+git config --global user.name "AwesomeYuer"
+
+git config --global useremail "AwesomeYuer@Microshaoft.com"
+
+```
+
+
+    
 
 3. In Windows PowerShell, run the following command set the execution policy so you can run a local PowerShell script file:
 
     > **Note**: You may need to run Windows PowerShell in Administrator.  To complete this, right click on Windows PowerShell and select "Run as Administrator". 
+
+    c:\dp-203 目录下执行
 
     ```
     Set-ExecutionPolicy Unrestricted
